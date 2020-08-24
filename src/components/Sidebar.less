@@ -1,0 +1,51 @@
+.logo {
+    position: relative;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    line-height: 64px;
+    box-shadow: 1px 1px 0 0 #e8e8e8;
+    img {
+        display: inline-block;
+        height: 32px;
+        vertical-align: middle;
+    }
+}
+
+.sidebar-uncollapsed {
+    flex: 0 0 256px !important;
+    max-width: 256px !important;
+    min-width: 256px !important;
+    width: 256px !important;
+    width: 256px !important;
+    box-shadow: 2px 0px 11px 0px #0000000f;
+    border-right: none;
+    z-index: 2;
+}
+
+.sidebar-collapsed {
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+    box-shadow: 2px 0px 11px 0px #0000000f;
+    border-right: none;
+    z-index: 2;
+}
+
+.sidebar-none {
+    display: none;
+}
+
+.sidebar {
+    .ant-menu-item-selected {
+        background-color: #0b2857 !important;
+        color: #fff !important;
+        border-right: 3px solid #db251e;
+        a {
+            color: #fff !important;
+        }
+    }
+}

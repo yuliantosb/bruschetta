@@ -1,0 +1,40 @@
+.dropdown-tab {
+    display: flex;
+    background-color: #fff;
+    .tab-menu {
+        width: 350px;
+        padding: 1rem;
+        .notification-wrapper {
+            display: flex;
+            justify-content: space-between;
+            span {
+                color: #aaa;
+                font-size: .8em;
+                font-weight: normal;
+            }
+        }
+    }
+    .notification-footer-menu {
+        text-align: center;
+    }
+}
+
+.navbar {
+    .search-navbar {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0px;
+        padding: 0px;
+        padding-bottom: 5px;
+        transition: all .3s ease-in-out;
+    }
+
+    .ant-input-affix-wrapper-focused {
+        box-shadow: none;
+    }
+
+    li.ant-menu-item-selected, li.ant-menu-item:hover, li.ant-menu-item-active {
+        border-bottom: 1px solid transparent;
+        transition: all .3s ease-in-out;
+    }
+}
